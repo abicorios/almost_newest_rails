@@ -18,7 +18,7 @@ bin/rails server -b 0.0.0.0
 # see blog
 Open `192.168.33.8:3000` in browser
 # stop
-Press `Ctrl+C`
+Press `Ctrl+C` in console
 # exit
 ```
 exit
