@@ -71,6 +71,6 @@ Vagrant.configure("2") do |config|
   SHELL
   config.vm.provision :shell, path: "install-nvm.sh", privileged: false
   config.vm.provision :shell, path: "install-node.sh", privileged: false
-  config.vm.provision :shell, path: "install-rvm.sh", args: "stable", privileged: false
+  config.vm.provision :shell, path: "install-rvm.sh", args: "head", privileged: false
   config.vm.provision :shell, path: "install-ruby.sh", args: "ruby rails", privileged: false
 end
